@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f8fc;
+    color: #333;
+}
+
+
+/* HERO SECTION */
+
+.hero {
+    height: 350px;
+    background-image: linear-gradient(
+        rgba(0, 60, 120, 0.7),
+        rgba(0, 60, 120, 0.7)
+    ),
+    url("church.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.overlay {
+    color: white;
+    padding: 20px;
+}
+
+.overlay h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.overlay p {
+    font-size: 20px;
+}
+
+
+/* MAIN CONTAINER */
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto;
+}
+
+
+/* WELCOME SECTION */
+
+.welcome {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+
+    margin-bottom: 25px;
+}
+
+.welcome h2 {
+    color: #064b8c;
+    margin-bottom: 15px;
+}
+
+.welcome p {
+    line-height: 1.6;
+}
+
+
+/* FORM */
+
+form {
+    background-color: white;
+
+    padding: 30px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group > label:first-child {
+    display: block;
+
+    font-weight: bold;
+
+    margin-bottom: 10px;
+}
+
+
+/* INPUTS */
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+
+    width: 100%;
+
+    padding: 13px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #064b8c;
+}
+
+
+/* OPTIONS */
+
+.option {
+    display: block;
+
+    margin: 10px 0;
+
+    font-weight: normal;
+
+    cursor: pointer;
+}
+
+.option input {
+    margin-right: 8px;
+}
+
+
+/* BUTTON */
+
+button {
+    width: 100%;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background-color: #064b8c;
+
+    color: white;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #04345f;
+}
+
+
+/* THANK YOU */
+
+.thank-you {
+    display: none;
+
+    background-color: white;
+
+    padding: 40px;
+
+    margin-top: 25px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+.thank-you h2 {
+    color: #064b8c;
+
+    margin-bottom: 15px;
+}
+
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+
+    padding: 25px;
+
+    background-color: #064b8c;
+
+    color: white;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+    .overlay h1 {
+        font-size: 30px;
+    }
+
+    .overlay p {
+        font-size: 17px;
+    }
+
+    .container {
+        width: 94%;
+    }
+
+    form,
+    .welcome {
+        padding: 20px;
+    }
+
+}

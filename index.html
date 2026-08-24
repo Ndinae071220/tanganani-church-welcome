@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Welcome to Tanganani Branch</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="hero">
+
+        <div class="overlay">
+
+            <h1>Welcome to Tanganani Branch</h1>
+
+            <p>
+                We're so glad you're here. 
+                We'd love to connect with you!
+            </p>
+
+        </div>
+
+    </header>
+
+
+    <main class="container">
+
+        <section class="welcome">
+
+            <h2>Let's Connect 🤍</h2>
+
+            <p>
+                Whether this is your first time visiting us or you've
+                been part of our church family for years, we'd love
+                to hear from you.
+            </p>
+
+        </section>
+
+
+        <form id="visitorForm">
+
+            <div class="form-group">
+
+                <label for="name">Full Name</label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your full name"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="phone">Phone Number</label>
+
+                <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    placeholder="Enter your phone number"
+                    required
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="email">Email Address</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email address"
+                >
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>I'm visiting as:</label>
+
+                <label class="option">
+                    <input type="radio" name="visitorType" value="First-time visitor" required>
+                    First-time visitor
+                </label>
+
+                <label class="option">
+                    <input type="radio" name="visitorType" value="Returning visitor">
+                    Returning visitor
+                </label>
+
+                <label class="option">
+                    <input type="radio" name="visitorType" value="Interested in joining">
+                    Interested in joining the church
+                </label>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label>I'd like to:</label>
+
+                <label class="option">
+                    <input type="checkbox" name="interest" value="Youth Ministry">
+                    Join the Youth Ministry
+                </label>
+
+                <label class="option">
+                    <input type="checkbox" name="interest" value="Ministry">
+                    Join a Ministry
+                </label>
+
+                <label class="option">
+                    <input type="checkbox" name="interest" value="Bible Study">
+                    Attend Bible Study
+                </label>
+
+                <label class="option">
+                    <input type="checkbox" name="interest" value="Prayer">
+                    Request Prayer
+                </label>
+
+                <label class="option">
+                    <input type="checkbox" name="interest" value="Pastor">
+                    Speak with a Pastor
+                </label>
+
+                <label class="option">
+                    <input type="checkbox" name="interest" value="Church Updates">
+                    Receive Church Updates
+                </label>
+
+                <label class="option">
+                    <input type="checkbox" name="interest" value="More Information">
+                    Learn More About the Church
+                </label>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="message">
+                    Is there anything else you'd like us to know?
+                </label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    placeholder="Write your message here..."
+                ></textarea>
+
+            </div>
+
+
+            <button type="submit">
+                Send My Response ❤️
+            </button>
+
+        </form>
+
+
+        <div id="thankYou" class="thank-you">
+
+            <h2>Thank You! ❤️</h2>
+
+            <p>
+                Thank you for connecting with Tanganani Branch.
+                We're happy to have you with us!
+            </p>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            © 2026 Tanganani Branch
+        </p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
